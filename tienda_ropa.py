@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 
 class Producto(ABC):
     def __init__(self, nombre, precio, talla):
-        self._nombre = nombre   # Atributo protegido
-        self._precio = precio   # Atributo protegido
-        self._talla = talla     # Atributo protegido
+        self._nombre = nombre   
+        self._precio = precio   
+        self._talla = talla     
 
     @abstractmethod
     def mostrar_detalle(self):
